@@ -10,6 +10,10 @@ External resources used in this project:
 - Vegur (font)
 - Noto Sans CJK SC (font)
 
+## Preview | 预览
+
+![Preview](box.png)
+
 ## Credit | 致谢
 
 - [arch-media-box-typst](https://github.com/Myriad-Dreamin/arch-media-box-typst)

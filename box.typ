@@ -20,7 +20,7 @@
 #place(left + top, dx: 37mm, dy: 9mm, {
   logo
   v(-2em)
-  tiaoma.hibc-128("979-32-8", height: 7mm, width: 55mm)
+  tiaoma.hibc-128("979-32-8", height: 7mm, width: 55mm, options: (show-hrt: false))
 })
 
 // front
@@ -80,7 +80,9 @@
   NixOS \ GNU/Linux
 ])))
 
-#place(left + top, dx: 5mm, dy: 161mm, rotate(90deg, reflow: true, tiaoma.ean("0", width: 18mm, height: 10mm)))
+#place(left + top, dx: 1mm, dy: 161mm, rotate(90deg, tiaoma.ean("0", width: 18mm, height: 10mm, options: (
+  show-hrt: false,
+))))
 
 // specification
 #for dy in (15mm, 101mm, 118mm, 204mm) {
@@ -96,7 +98,9 @@
   码上放心 · SHA-256 \ 网站查询：nixos.org
 ]))
 
-#place(left + top, dx: 138mm, dy: 58mm, rotate(90deg, reflow: true, tiaoma.ean("0", width: 18mm, height: 10mm)))
+#place(left + top, dx: 134mm, dy: 58mm, rotate(90deg, tiaoma.ean("0", width: 18mm, height: 10mm, options: (
+  show-hrt: false,
+))))
 
 // footer
 #place(left + top, dx: 57mm, dy: 215mm, {
