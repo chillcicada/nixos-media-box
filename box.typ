@@ -6,9 +6,9 @@
 
 #show: background
 
-#set text(font: ("DejaVu Sans", "Noto Sans CJK SC"), size: 7pt)
+#set text(font: ("Vegur", "Noto Sans CJK SC"), size: 7pt)
 
-#let logo = text(size: 15pt)[NixOS#super(baseline: -3.3pt)[®] GNU/Linux™]
+#let logo = text(size: 15pt)[NixOS® GNU/Linux™]
 
 #let title = {
   logo
@@ -64,7 +64,7 @@
 
   ]
 
-  align(right + bottom, text(size: 10pt, [Nix & NixOS 基金会]))
+  align(right + bottom, text(size: 12pt, [Nix & NixOS 基金会]))
 }))
 
 // left
@@ -84,7 +84,7 @@
 
 // specification
 #for dy in (15mm, 101mm, 118mm, 204mm) {
-  place(left + top, dx: 98mm, dy: dy, list(marker: [---])[Flash Drive][64-bit])
+  place(left + top, dx: 96mm, dy: dy, list(marker: [---])[Flash Drive][64-bit])
 }
 
 // right
@@ -98,3 +98,15 @@
 
 #place(left + top, dx: 138mm, dy: 58mm, rotate(90deg, reflow: true, tiaoma.ean("0", width: 18mm, height: 10mm)))
 
+// footer
+#place(left + top, dx: 57mm, dy: 215mm, {
+  text(size: 10pt)[CC BY-SA 4.0]
+  v(-1.3em)
+  text(size: 6pt, weight: 150)[Based on arch-media-box-typst]
+})
+
+#place(left + top, dx: 96mm, dy: 215mm, {
+  text(size: 6pt, weight: 150)[Maded by]
+  v(-1em)
+  text(size: 9pt)[ChillCicada]
+})
