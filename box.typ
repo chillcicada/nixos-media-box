@@ -80,7 +80,7 @@
   NixOS \ GNU/Linux
 ])))
 
-#place(left + top, dx: 1mm, dy: 161mm, rotate(90deg, tiaoma.ean("0", width: 18mm, height: 10mm, options: (
+#place(left + top, dx: 1mm, dy: 166mm, rotate(90deg, tiaoma.ean("0", width: 18mm, height: 10mm, options: (
   show-hrt: false,
 ))))
 
@@ -98,7 +98,7 @@
   码上放心 · SHA-256 \ 网站查询：nixos.org
 ]))
 
-#place(left + top, dx: 134mm, dy: 58mm, rotate(90deg, tiaoma.ean("0", width: 18mm, height: 10mm, options: (
+#place(left + top, dx: 134mm, dy: 63mm, rotate(90deg, tiaoma.ean("0", width: 18mm, height: 10mm, options: (
   show-hrt: false,
 ))))
 

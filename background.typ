@@ -53,9 +53,8 @@
   {
     set rect(width: length, height: length, stroke: none)
 
-    let colors = ("#000000", "#00ffff", "#ff00ff", "#ffff00") // K C M Y
-
-    for (i, c) in colors.enumerate() {
+    // K C M Y
+    for (i, c) in ("#000000", "#00ffff", "#ff00ff", "#ffff00").enumerate() {
       place(top + left, dy: length * (i + 2), rect(fill: rgb(c)))
       place(bottom + right, dy: -length * (i + 2), rect(fill: rgb(c)))
     }
