@@ -6,7 +6,7 @@
 
 #show: background
 
-#set text(font: ("Vegur", "Noto Sans CJK SC"), size: 7pt)
+#set text(font: ("Vegur", (name: "Noto Sans CJK SC", covers: "latin-in-cjk")), size: 7pt)
 
 #let logo = text(size: 15pt)[NixOS® GNU/Linux™]
 
