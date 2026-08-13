@@ -35,6 +35,12 @@
 // middle
 #place(left + top, dx: 37mm, dy: 117mm, logo)
 
+#place(left + top, dx: 40mm, dy: 126.3mm, block(width: .8mm, height: 3mm, fill: rgb("b5c5df")))
+
+#for dx in (6mm, 12mm, 18mm, 30mm, 36mm, 42mm) {
+  place(left + top, dx: 40mm + dx, dy: 126.3mm, block(width: .8mm, height: 3mm, fill: black))
+}
+
 // back
 #place(left + top, dx: 37mm, dy: 131mm, block(width: 55mm, height: 78mm, {
   title
@@ -64,7 +70,7 @@
 
   ]
 
-  align(right + bottom, text(size: 12pt, [Nix & NixOS 基金会]))
+  align(right + bottom, text(size: 10pt, [Nix & NixOS 基金会]))
 }))
 
 // left

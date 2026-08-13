@@ -7,7 +7,7 @@ The graphic design is entirely done via [Typst](https://typst.app/), with the ba
 External resources used in this project:
 
 - [NixOS logo](https://nixos.org/branding) (svg)
-- Vegur (font)
+- Vegur (font, source from [nixos-artwork](https://github.com/NixOS/nixos-artwork/blob/master/logo/font/vegur.602.zip))
 - Noto Sans CJK SC (font)
 
 ## Preview | 预览
